@@ -1,0 +1,23 @@
+{
+  "name": "orats-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/remote.js",
+    "start:local": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.0.0"
+  }
+}
